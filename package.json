@@ -1,21 +1,21 @@
 {
-  "name": "parcel-project-template",
+  "name": "goit-js-hw-10-new",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://goitacademy.github.io/parcel-project-template",
+  "homepage": "https://NastyaSavchenko.github.io/goit-js-hw-10-new",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-10-new/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/NastyaSavchenko/goit-js-hw-10-new.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "NastyaSavchenko <savyle4ka13@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/NastyaSavchenko/goit-js-hw-10-new/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
