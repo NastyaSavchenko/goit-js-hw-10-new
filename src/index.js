@@ -18,8 +18,12 @@ refs.search.addEventListener('input', debounce(onSearch, DEBOUNCE_DELAY));
 function onSearch(e) {
   e.preventDefault();
   let name = e.target.value.trim();
-  refs.countryList.innerHTML = '';
+
+  if (name === '') {
+    refs.countryList.innerHTML = '';
   refs.countryInfo.innerHTML = '';
+    return;
+  }
 
     fetchCountries(name).then(data => {
         if (data.length === 1) {
